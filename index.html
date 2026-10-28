@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medeiros Gamer | Jogos Digitais, Consoles e Assinaturas</title>
-
-    <!-- Favicon Verde Néon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300ff66'><path d='M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H9v2H7v-2H5v-2h2V9h2v2h2v2zm4.5 1c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5S17.67 9 18.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/></svg>">
-
-    <!-- CSS Externo Separado -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- NAVBAR STICKY -->
+  
     <header class="navbar">
         <div class="nav-container">
             <a href="#inicio" class="logo">
@@ -28,266 +22,413 @@
 
             <nav class="nav-links">
                 <a href="#inicio" class="active">Início</a>
-                <a href="#sobre">Quem Somos</a>
-                <a href="#servicos">Serviços & Produtos</a>
-                <a href="#galeria">Galeria de Lançamentos</a>
-                <a href="#contato">Atendimento & Pedidos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Destaques</a>
+                <a href="#lancamentos">Lançamentos</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="#contato">Contato</a>
             </nav>
 
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-            </a>
+            <div class="nav-actions">
+                <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20atendimento." target="_blank" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="main-container">
 
-        <!-- HERO SECTION -->
+    
         <section id="inicio" class="hero-section">
             <div class="hero-content">
                 <div class="badge-pill">
                     <span class="pulse-dot"></span>
-                    ENVIO AUTOMÁTICO 24/7 • PROCEDÊNCIA GARANTIDA
+                    MEDEIROS GAMER • LICENÇAS OFICIAIS & ENTREGA IMEDIATA
                 </div>
 
                 <h1 class="hero-title">
-                    Sua Próxima <br> Aventura Digital <br>
-                    <span class="neon-text">Começa Aqui</span>
+                    Sua Próxima Aventura Digital <br>
+                    <span class="neon-text">Começa Aqui com Envio Automatico</span>
                 </h1>
 
                 <p class="hero-desc">
-                    Entrega automática e instantânea de jogos para PS4, PS5, Xbox e Nintendo. Suporte humanizado e garantia de procedência.
+                    Mídias digitais para PS4, PS5, Xbox, Nintendo e PC. Procedência garantida, ativação instantânea e o melhor suporte do Brasil.
                 </p>
 
                 <div class="hero-btns">
-                    <a href="#servicos" class="btn btn-neon">
-                        Garantir Seu Jogo Agora <i class="fa-solid fa-arrow-right"></i>
+                    <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20personalizado." target="_blank" class="btn btn-neon btn-lg">
+                        <i class="fa-brands fa-whatsapp"></i> Encomendar no WhatsApp
                     </a>
-                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-                        <i class="fa-brands fa-whatsapp"></i> Falar com Atendente
+                    <a href="#servicos" class="btn btn-outline btn-lg">
+                        <i class="fa-solid fa-gamepad"></i> Ver Catálogo
                     </a>
                 </div>
 
-                <div class="hero-checks">
-                    <span><i class="fa-solid fa-check"></i> Ativação Imediata</span>
-                    <span><i class="fa-solid fa-check"></i> Jogo 100% Original</span>
-                    <span><i class="fa-solid fa-check"></i> Licença Vitalícia</span>
+              
+                <div class="reputation-bar">
+                    <div class="rep-card">
+                        <i class="fa-solid fa-star"></i>
+                        <div>
+                            <strong>4.9/5 Estrelas</strong>
+                            <small>+10.000 gamers felizes</small>
+                        </div>
+                    </div>
+                    <div class="rep-card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <div>
+                            <strong>Envio Imediato</strong>
+                            <small>Ativação 24/7 via Pix</small>
+                        </div>
+                    </div>
+                    <div class="rep-card">
+                        <i class="fa-solid fa-headset"></i>
+                        <div>
+                            <strong>Atendimento VIP</strong>
+                            <small>Suporte humano 100%</small>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="hero-banner-card">
-                <div class="banner-box">
-                    <div class="banner-inner">
-                        <div class="logo-icon-lg">
-                            <i class="fa-solid fa-gamepad"></i>
-                        </div>
-                        <h3>MEDEIROS</h3>
-                        <p>GAMER</p>
-                    </div>
-                    <span class="tag-top">ENVIO AUTOMÁTICO</span>
-                    <span class="tag-bottom">REF: MG-2026</span>
+         
+            <div class="hero-featured-card">
+                <div class="featured-header">
+                    <span class="tag-sub">• MEDEIROS GAMER EXCLUSIVO</span>
+                    <h3>Jogo em Destaque</h3>
                 </div>
-
-                <div class="card-proof">
-                    <div class="proof-left">
-                        <div class="rating-num">99.8%</div>
-                        <div>
-                            <strong>Aprovação</strong>
-                            <small>Opinião verificada dos clientes</small>
-                        </div>
+                <div class="featured-img-box">
+                    <img src="https://t2.tudocdn.net/536260?w=1920" alt="Destaque Gamer">
+                    <span class="card-price-badge">Até 30% OFF</span>
+                </div>
+                <div class="featured-footer">
+                    <div>
+                        <small>Garantia Vitalícia</small>
+                        <p>Catálogo atualizado diariamente com os maiores lançamentos</p>
                     </div>
-                    <div class="proof-right">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <small>10.000+ Vendas</small>
-                    </div>
+                    <span class="badge-tag">Oficial</span>
                 </div>
             </div>
         </section>
 
-        <!-- SOBRE NÓS -->
         <section id="sobre" class="section">
             <div class="section-header">
-                <span class="section-tag">NOSSA ESSÊNCIA & TRAJETÓRIA</span>
-                <h2>Nossa História no Universo Gamer</h2>
-                <div class="line-divider"></div>
+                <span class="section-tag">✨ QUEM SOMOS & NOSSA ESSÊNCIA</span>
+                <h2>Em cada conta, <span class="neon-text">a garantia de uma experiência inesquecível</span></h2>
             </div>
 
             <div class="grid-2col">
                 <div class="about-text">
                     <p>
-                        Fundada em 2014, a <strong class="neon-text">Medeiros Gamer</strong> nasceu da paixão genuína pelos jogos eletrônicos e da necessidade de transformar a experiência de compra de entretenimento digital no Brasil. Ao longo de mais de uma década, construímos uma trajetória sólida e reconhecida.
+                        Fundada em 2014, a <strong>Medeiros Gamer</strong> nasceu com a missão de transformar o acesso aos jogos digitais no Brasil. Trabalhamos exclusivamente com chaves autênticas e mídias 100% originais para todas as plataformas.
                     </p>
                     <p>
-                        Nossa missão primordial é democratizar o acesso aos jogos digitais no país com absoluta transparência, envio imediato de licenças e um suporte técnico especializado verdadeiramente humano.
+                        Priorizamos a transparência, envio automático após a confirmação do pagamento e garantia vitalícia no suporte pós-venda.
                     </p>
-                    <div class="feature-tags">
-                        <span><i class="fa-solid fa-shield-halved"></i> Licenças 100% Autênticas</span>
-                        <span><i class="fa-solid fa-bolt"></i> Envio Imediato</span>
-                        <span><i class="fa-solid fa-lock"></i> Compra Segura</span>
+
+                    <div class="about-stats-grid">
+                        <div class="stat-box">
+                            <h3>Desde 2014</h3>
+                            <strong>Tradição & Confiança</strong>
+                            <p>Mais de uma década servindo a comunidade gamer.</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>100%</h3>
+                            <strong>Garantido</strong>
+                            <p>Licenças oficiais das lojas proprietárias.</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>Premium</h3>
+                            <strong>Atendimento Humano</strong>
+                            <p>Auxílio no passo a passo de instalação no seu console.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="stats-list">
-                    <div class="stat-card">
-                        <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
-                        <div>
-                            <h4>Desde 2014</h4>
-                            <p>Pioneiros em mídias digitais no Brasil.</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
-                        <div>
-                            <h4>+10.000</h4>
-                            <p>Clientes satisfeitos em todos os estados.</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon"><i class="fa-solid fa-headset"></i></div>
-                        <div>
-                            <h4>Suporte 100% Humano</h4>
-                            <p>Atendimento especializado para sanar dúvidas.</p>
-                        </div>
-                    </div>
+                <div class="about-img-frame">
+                    <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/GTA-6.jpg?w=1200&h=900&crop=0&quality=90" alt="Universo Gamer">
                 </div>
             </div>
         </section>
 
-        <!-- SERVIÇOS E PRODUTOS -->
+     
         <section id="servicos" class="section">
             <div class="section-header">
-                <span class="section-tag">CATÁLOGO COMPLETO</span>
-                <h2>Serviços & Produtos Mais Populares</h2>
-                <p class="section-subtitle">Selecione a categoria desejada e aproveite ofertas exclusivas com entrega imediata.</p>
+                <span class="section-tag">SERVIÇOS & PLATAFORMAS</span>
+                <h2>Nossos Destaques <span class="neon-text">(Passe o mouse)</span></h2>
             </div>
 
-            <div class="grid-4col">
-                <!-- Card 1 -->
-                <div class="service-card">
-                    <div>
-                        <div class="icon-box"><i class="fa-solid fa-gamepad"></i></div>
-                        <span class="card-tag">PLATAFORMA PS4 / PS5</span>
-                        <h3>Jogos Digitais PS4 & PS5</h3>
-                        <p>Títulos digitais originais e lançamentos com suporte completo.</p>
-                    </div>
-                    <div>
-                        <span class="price-label">Preços a partir de</span>
-                        <span class="price-val">A partir de R$ 35,40</span>
-                        <a href="#contato" class="btn btn-card">Comprar Agora</a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="service-card">
-                    <div>
-                        <div class="icon-box"><i class="fa-brands fa-xbox"></i></div>
-                        <span class="card-tag">XBOX & NINTENDO</span>
-                        <h3>Chaves Xbox & Nintendo</h3>
-                        <p>Códigos digitais de ativação imediata nas lojas oficiais.</p>
-                    </div>
-                    <div>
-                        <span class="price-label">Preços a partir de</span>
-                        <span class="price-val">A partir de R$ 37,00</span>
-                        <a href="#contato" class="btn btn-card">Resgatar Chave</a>
+            <div class="grid-3col">
+                <div class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src=https://upload.wikimedia.org/wikipedia/pt/a/a5/God_of_War_Ragnar%C3%B6k_capa.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=originalalt="PS4 e PS5">
+                            <div class="hover-front-title">Jogos PS4 & PS5</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>PlayStation 4 & 5</h3>
+                            <p>Títulos digitais primários e secundários com preços promocionais e ativação garantida.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Tenho%20interesse%20em%20jogos%20de%20PlayStation." target="_blank" class="btn btn-neon btn-full">Comprar PS4/PS5</a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="service-card card-popular">
-                    <span class="ribbon">POPULAR</span>
-                    <div>
-                        <div class="icon-box"><i class="fa-solid fa-credit-card"></i></div>
-                        <span class="card-tag">CLUBE MENSAL</span>
-                        <h3>Assinatura Gamefix</h3>
-                        <p>Acesso ilimitado ao catálogo com centenas de jogos.</p>
-                    </div>
-                    <div>
-                        <span class="price-label">Mensalidade Fixa</span>
-                        <span class="price-val">R$ 84,00 <small>/mês</small></span>
-                        <a href="#contato" class="btn btn-neon btn-full">Assinar Gamefix</a>
+                <div class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/1/1f/Battlefield_2042_capa.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="Xbox & Nintendo">
+                            <div class="hover-front-title">Xbox & Nintendo</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>Xbox & Switch</h3>
+                            <p>Chaves digitais de 25 dígitos e Gift Cards para Xbox One, Series X|S e Nintendo Switch.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Gostaria%20de%20ver%20jogos%20de%20Xbox%20ou%20Switch." target="_blank" class="btn btn-neon btn-full">Resgatar Chave</a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Card 4 -->
-                <div class="service-card">
-                    <div>
-                        <div class="icon-box"><i class="fa-solid fa-gift"></i></div>
-                        <span class="card-tag">PROGRAMA FIDELIDADE</span>
-                        <h3>Cashback & Clube Gamer</h3>
-                        <p>Acumule pontos em todas as compras e troque por jogos grátis.</p>
-                    </div>
-                    <div>
-                        <span class="price-label">Benefício Exclusivo</span>
-                        <span class="price-val">Benefício Exclusivo</span>
-                        <a href="#contato" class="btn btn-card">Entrar no Clube</a>
+                <div class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicOPjRc5xR0mLb3vqIMQcXlrVS4GVhAVanH2WBh664_8GOejL6NE17yw&s=10" alt="Assinatura Gamefix">
+                            <div class="hover-front-title">Assinatura Gamefix</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>Clube Gamefix</h3>
+                            <p>Acesso mensal ilimitado a uma biblioteca completa de jogos por apenas R$ 84,00/mês.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20Assinatura%20Gamefix." target="_blank" class="btn btn-neon btn-full">Assinar Clube</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- GALERIA DE LANÇAMENTOS -->
+      
+        <section id="lancamentos" class="section">
+            <div class="section-header">
+                <span class="section-tag">CATÁLOGO EXCLUSIVO</span>
+                <h2>Lançamentos & Pré-Vendas</h2>
+                <p class="section-subtitle">Passe o mouse no card para girar e ver as informações de compra.</p>
+            </div>
+
+            <div class="gallery-grid">
+            
+                <div class="card-container card-purple">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 349,90</span>
+                            <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/GTA-6.jpg?w=1200&h=900&crop=0&quality=90" alt="GTA VI">
+                            <div class="card-front-title">GTA VI</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Grand Theft Auto VI</h3>
+                            <p>Explore Vice City com gráficos incríveis de última geração. Garanta sua reserva antecipada.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20reservar%20GTA%20VI" target="_blank" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+         
+                <div class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 299,90</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/zh/6/6f/EA_Sports_FC_27.jpg" alt="EA Sports FC 27">
+                            <div class="card-front-title">EA FC 27</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>EA Sports FC 27</h3>
+                            <p>O melhor do futebol digital com licenças oficiais, gráficos ultra-realistas e Ultimate Team.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20EAFC27" target="_blank" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="card-container card-red">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 249,90</span>
+                            <img src="https://s2-techtudo.glbimg.com/WSv-EEybzB088XCoDngOQa93kE8=/0x0:3840x2160/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/K/6/aBVr6PSHSdlAAF5LA3uA/marvels-spider-man-2-20231006223458.jpg" alt="Spider-Man 2">
+                            <div class="card-front-title">Spider-Man 2</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Spider-Man 2</h3>
+                            <p>Jogue como Peter Parker e Miles Morales enfrentando o vilão Venom em Nova York.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20Spider-Man%202" target="_blank" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container card-yellow">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 199,90</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/0/0d/Elden_Ring_capa.jpg" alt="Elden Ring">
+                            <div class="card-front-title">Elden Ring</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Elden Ring</h3>
+                            <p>Explore as Terras Intermédias neste RPG de ação aclamado pela crítica e vencedor de prêmios.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20Elden%20Ring" target="_blank" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
         <section id="galeria" class="section">
             <div class="section-header">
-                <span class="section-tag">OBTENHA SEU JOGO FAVORITO</span>
-                <h2>Galeria de Lançamentos</h2>
-                <p class="section-subtitle">Confira os títulos mais procurados e garanta seu acesso no dia do lançamento.</p>
+                <span class="section-tag">GALERIA DE JOGOS</span>
+                <h2>Nossa Galeria em Alta Definição</h2>
+                <p class="section-subtitle">Clique em uma imagem para ampliá-la na tela.</p>
             </div>
 
-            <div class="grid-4col">
-                <div class="gallery-card">
-                    <div class="gallery-img-box img-red">
-                        <i class="fa-solid fa-image"></i>
-                        <span class="badge-red">EM BREVE</span>
-                    </div>
-                    <div class="gallery-info">
-                        <span class="card-tag">AÇÃO / MUNDO ABERTO</span>
-                        <h4>Grand Theft Auto VI - Edição Digital</h4>
-                    </div>
-                </div>
+            <div class="gallery">
+                <a href="#img1" class="gallery-item">
+                    <span class="card-price-badge">R$ 109,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Cuphead_capa.png" alt="Cuphead">
+                    <h3>CUPHEAD</h3>
+                </a>
+                <a href="#img2" class="gallery-item">
+                    <span class="card-price-badge">R$ 149,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png" alt="TLOU 1">
+                    <h3>TLOU 1</h3>
+                </a>
+                <a href="#img3" class="gallery-item">
+                    <span class="card-price-badge">R$ 249,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/96/The_Last_of_Us_2_capa.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="TLOU 2">
+                    <h3>TLOU 2</h3>
+                </a>
+                <a href="#img4" class="gallery-item">
+                    <span class="card-price-badge">R$ 79,90</span>
+                    <img src="https://static.wikia.nocookie.net/arkhamcity/images/5/57/Batman_Arkham_Knight.jpg/revision/latest?cb=20160922181423&path-prefix=pt-br" alt="Batman Knight">
+                    <h3>BATMAN KNIGHT</h3>
+                </a>
+            </div>
 
-                <div class="gallery-card">
-                    <div class="gallery-img-box img-green">
-                        <i class="fa-solid fa-image"></i>
-                        <span class="badge-green">MAIS VENDIDO</span>
-                    </div>
-                    <div class="gallery-info">
-                        <span class="card-tag">ESPORTES / FUTEBOL</span>
-                        <h4>EA SPORTS FC 25 - Ultimate Edition</h4>
-                    </div>
+          
+            <div class="lightbox" id="img1">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Cuphead_capa.png" alt="Cuphead Ampliado">
                 </div>
+            </div>
 
-                <div class="gallery-card">
-                    <div class="gallery-img-box img-purple">
-                        <i class="fa-solid fa-image"></i>
-                        <span class="badge-purple">GOTY NOMINEE</span>
-                    </div>
-                    <div class="gallery-info">
-                        <span class="card-tag">RPG / FANTASIA</span>
-                        <h4>Black Myth: Wukong - Edição Standard</h4>
-                    </div>
+            <div class="lightbox" id="img2">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png" alt="TLOU 1 Ampliado">
                 </div>
+            </div>
 
-                <div class="gallery-card">
-                    <div class="gallery-img-box img-cyan">
-                        <i class="fa-solid fa-image"></i>
-                        <span class="badge-cyan">DLC / EXPANSÃO</span>
-                    </div>
-                    <div class="gallery-info">
-                        <span class="card-tag">SCI-FI / AÇÃO</span>
-                        <h4>Cyberpunk 2077: Phantom Liberty</h4>
-                    </div>
+            <div class="lightbox" id="img3">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/96/The_Last_of_Us_2_capa.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="TLOU 2 Ampliado">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img4">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://static.wikia.nocookie.net/arkhamcity/images/5/57/Batman_Arkham_Knight.jpg/revision/latest?cb=20160922181423&path-prefix=pt-br" alt="Batman Knight Ampliado">
                 </div>
             </div>
         </section>
 
-        <!-- FORMULÁRIO DE CONTATO -->
+        
+        <section class="section">
+            <div class="section-header">
+                <span class="section-tag">AVALIAÇÕES REAIS</span>
+                <h2>O que dizem os <span class="neon-text">Nossos Gamers</span></h2>
+                <p class="section-subtitle">Depoimentos de quem confia na Medeiros Gamer</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Atendimento incrível! Fiz o Pix do GTA VI e o código de ativação chegou em menos de 2 minutos no meu WhatsApp. Suporte super atencioso!"</p>
+                    <strong>— Lucas R. (São Paulo/SP)</strong>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Já sou cliente do clube Gamefix há mais de 1 ano. Preço justo, biblioteca gigante de jogos e zero dor de cabeça. Recomendo de olhos fechados!"</p>
+                    <strong>— Matheus A. (Campinas/SP)</strong>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Comprei o Spider-Man 2 para o PS5 e me ajudaram no passo a passo para configurar tudo bem rápido. Excelente pós-venda!"</p>
+                    <strong>— Gabriel F. (Curitiba/PR)</strong>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="faq" class="section">
+            <div class="section-header">
+                <span class="section-tag">TIRE SUAS DÚVIDAS</span>
+                <h2>Dúvidas <span class="neon-text">Frequentes</span></h2>
+                <p class="section-subtitle">Tudo o que você precisa saber antes de comprar seu jogo</p>
+            </div>
+
+            <div class="faq-container">
+                <details>
+                    <summary>
+                        <span>Qual é o prazo de entrega após o pagamento?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>O envio é 100% automático via Pix! Após a confirmação, você recebe os dados da sua licença diretamente no e-mail e WhatsApp em menos de 5 minutos.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Os jogos são originais e possuem garantia?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Sim! Todos os nossos produtos são licenças oficiais compradas diretamente nas lojas proprietárias (PlayStation Store, Xbox Live, Nintendo eShop, Steam). Oferecemos garantia vitalícia.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Quais são as formas de pagamento aceitas?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Aceitamos Pix com envio automático e desconto especial, além de cartão de crédito em até 12x via Mercado Pago e PicPay.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Como funciona o suporte pós-venda?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Nossa equipe técnica fica disponível de segunda a domingo pelo WhatsApp para te orientar em qualquer etapa da instalação e configuração no seu console.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        
         <section id="contato" class="section">
             <div class="section-header">
                 <span class="section-tag">CENTRAL DE ATENDIMENTO</span>
                 <h2>Atendimento & Pedidos Personalizados</h2>
-                <p class="section-subtitle">Preencha o formulário abaixo e receba seu orçamento ou jogo diretamente no seu e-mail/WhatsApp.</p>
+                <p class="section-subtitle">Preencha os dados para receber o orçamento do seu jogo imediatamente.</p>
             </div>
 
             <div class="form-container">
@@ -339,7 +480,7 @@
 
     </main>
 
-    <!-- FOOTER -->
+
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-col">
@@ -353,35 +494,28 @@
             </div>
 
             <div class="footer-col">
-                <h4>LINKS RÁPIDOS</h4>
+                <h4>Navegação</h4>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Quem Somos</a></li>
-                    <li><a href="#servicos">Serviços & Produtos</a></li>
-                    <li><a href="#galeria">Galeria de Lançamentos</a></li>
-                    <li><a href="#contato">Atendimento & Pedidos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Destaques</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
                 </ul>
             </div>
 
             <div class="footer-col">
-                <h4>PLATAFORMAS</h4>
-                <ul>
-                    <li><a href="#servicos">PlayStation 4 & PS5</a></li>
-                    <li><a href="#servicos">Xbox Series X|S & One</a></li>
-                    <li><a href="#servicos">Nintendo Switch Codes</a></li>
-                    <li><a href="#servicos">PC - Keys & Giftcards</a></li>
-                    <li><a href="#servicos">Assinatura Mensal Gamefix</a></li>
-                </ul>
+                <h4>Atendimento</h4>
+                <p>Envios automáticos 24h para todo o Brasil</p>
+                <p>⏰ Seg a Dom: 08h às 23h (Suporte)</p>
+                <p>💬 (19) 99415-2532</p>
             </div>
 
             <div class="footer-col">
-                <h4>PAGAMENTO & SEGURANÇA</h4>
-                <p><i class="fa-solid fa-bolt neon-text"></i> Pix com Envio Automático</p>
-                <p><i class="fa-solid fa-credit-card neon-text"></i> Em até 12x no Cartão</p>
-                <div class="social-icons">
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i></a>
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="https://wa.me/19994152532" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
                 </div>
             </div>
         </div>
@@ -390,6 +524,10 @@
             © 2026 Medeiros Gamer. Todos os direitos reservados. Feito para gamers exigentes.
         </div>
     </footer>
+
+    <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
 
 </body>
 </html>
